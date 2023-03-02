@@ -118,11 +118,49 @@ h4 {
 
 /* SECTION 2: PARTNERS */
 .partners-logos {
-    margin: 250px 50px 50px 50px;
+    margin: 250px 50px 150px 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     filter: grayscale(1);
+}
+
+/* SECTION 3: RECENT PROJECTS */
+.recent-projects-title {
+    margin-left: 120px;
+}
+.recent-projects-container {
+    margin: 50px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.project-card {
+    max-width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.project-card img {
+    max-width: 100%;
+}
+.recent-projects-container div {
+    background-color: white;
+    height: 150px;
+}
+.recent-projects-container h4 {
+    padding: 20px 20px 0px 20px;
+}
+.recent-projects-container p {
+    padding: 5px 20px;
+    color:#6B708D
+}
+.recent-projects-container a {
+    padding: 40px 30px 10px 20px;
+    position: absolute;
+    text-decoration: none;
+    color: #072AC8
 }
 
 /* Media query for screens smaller than 641px */
