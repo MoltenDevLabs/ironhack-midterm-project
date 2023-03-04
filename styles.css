@@ -133,9 +133,10 @@ h4 {
 /* SECTION 3: RECENT PROJECTS */
 .recent-projects-title {
     margin-left: 120px;
+    margin-top: 200px;
 }
 .recent-projects-container {
-    margin: 50px 60px;
+    margin: 80px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -179,8 +180,8 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1320px;
-    margin: 100px 15px;
+    width: 1310px;
+    margin: 200px 20px;
 }
 .testimonial-container-left img, .testimonial-container-right img{
     width: 120px;
@@ -247,6 +248,7 @@ h4 {
 
 /* SECTION 5: SERVICES SECTION */
 .services-title {
+    margin-top: 50px;
     margin-left: 120px;
 }
 .services-container {
@@ -293,7 +295,7 @@ h4 {
     color: #072AC8
 }
 
-/* SECTION 5: SERVICES SECTION */
+/* SECTION 6: CTA SECTION */
 .cta-container {
     background-color: #FFC600;
     display: flex;
@@ -301,8 +303,8 @@ h4 {
     align-items: center;
     justify-content: center;
     height: 500px;
-    width: 1320px;
-    margin: 100px 15px;
+    width: 1310px;
+    margin: 200px 20px;
 }
 .cta-container h3 {
     color: #292E47;
@@ -331,11 +333,62 @@ h4 {
     background-position: 25px;
     margin-right: 10px;
     padding-left: 65px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #292E47;
 }
 .btn-cta {
     height: 80px;
     width: 198px;
     margin-left: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 130%;
+}
+
+/* SECTION 7: FOOTER */
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+.footer-left {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-links {
+    max-width: 50%;
+    margin-left: 150px;
+}
+.footer-links-list {
+    column-count: 3;
+}
+.footer-links a {
+    color: #6B708D;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+}
+.footer-links li {
+    list-style-type: none;
+}
+.footer-left {
+    margin-left: 30px;
+}
+.footer-left img {
+    width: 98.38px;
+    height: 30px;
+    padding: 15px 0;
+}
+.footer-left p {
+    color: #6B708D;
+    padding: 15px 0;
 }
 
 /* Media query for screens smaller than 641px */
