@@ -37,7 +37,7 @@ h4 {
     margin-top: 70px;
 }
 .navbar-logo {
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .navbar-links {
     width: 50%;
@@ -69,7 +69,7 @@ h4 {
     font-weight: 500;
 }
 .navbar-btn {
-    margin-right: 100px;
+    margin-right: 120px;
 }
 
 /* SECTION 1: HERO SECTION */
@@ -146,6 +146,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
 }
 .project-card img {
     max-width: 100%;
@@ -242,6 +243,54 @@ h4 {
     flex-direction: column;
     justify-content: center;
 } 
+
+/* SECTION 5: SERVICES SECTION */
+.services-title {
+    margin-left: 120px;
+}
+.services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: center;
+    margin: 50px 80px;
+}
+.services-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    width: 340px;
+    height: 380px;
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+}
+.services-icon-bg {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #ECF7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 30px;
+}
+.services-card h4 {
+    padding: 0 30px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.services-card p {
+    padding: 0 30px;
+    color:#6B708D;
+    font-size: 20px;
+    line-height: 150%;
+}
+.services-card a {
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #072AC8
+}
 
 /* Media query for screens smaller than 641px */
 /* NAVIGATION BAR*/
