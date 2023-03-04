@@ -179,6 +179,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 1320px;
     margin: 100px 15px;
 }
 .testimonial-container-left img, .testimonial-container-right img{
@@ -290,6 +291,51 @@ h4 {
     padding: 20px 30px;
     text-decoration: none;
     color: #072AC8
+}
+
+/* SECTION 5: SERVICES SECTION */
+.cta-container {
+    background-color: #FFC600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 1320px;
+    margin: 100px 15px;
+}
+.cta-container h3 {
+    color: #292E47;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+.cta-container p {
+    color: #292E47;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    margin: 30px 0;
+}
+.cta-container form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.cta-container input {
+    width: 300px;
+    height: 80px;
+    border: 0px;
+    background-image: url("./images/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    background-position: 25px;
+    margin-right: 10px;
+    padding-left: 65px;
+}
+.btn-cta {
+    height: 80px;
+    width: 198px;
+    margin-left: 10px;
 }
 
 /* Media query for screens smaller than 641px */
