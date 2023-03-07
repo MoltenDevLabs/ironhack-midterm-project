@@ -391,6 +391,55 @@ h4 {
     padding: 15px 0;
 }
 
+/* SECTION 8: PROJECT */
+.project-container {
+    margin: 0 120px;
+}
+.project-title {
+    margin: 40px 0;
+    color: #292E47;
+    font-weight: 700;
+    line-height: 70px;
+}
+.project-subtitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #6B708D;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.project-subtitle-completed {
+    color: #292E47;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.project-subtitle-completed span {
+    color: #6B708D;
+}
+.project-img-big-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-img-big {
+    margin: 80px 0;
+    width: 1100px;
+    height: 444px;
+}
+.project-explanation {
+    color: #6B708D;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.project-explanation-second-p {
+    margin: 40px 0 70px 0;
+}
+
+
 /* Media query for screens smaller than 641px */
 /* NAVIGATION BAR*/
 @media screen and (max-width: 640px) {
