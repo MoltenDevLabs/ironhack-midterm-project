@@ -13,9 +13,9 @@
       <img class="navbar-logo" src="images\logos\circle.svg" alt="circle logo">
       <div class="navbar-links">
         <ul>
-          <li><a id="home-link" href="">Home</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Services</a></li>
+          <li><a id="home-link" href="#">Home</a></li>
+          <li><a href="/project_page/project_page.html">Projects</a></li>
+          <li><a href="/contact_us_page/contact_us_page.html">Services</a></li>
         </ul>
       </div>
       <button class="btn navbar-btn">Contact us</button>
@@ -27,11 +27,13 @@
         <h1>Empower Your<br>Business With<br>Stunning Design!</h1>
         <p>Circle is a digital design and development studio.<br>
             We design and develop astonishing websites<br>and mobile apps.</p>
-        <button class="btn">Get in touch</button>
-            <a href="">See our work</a>
+        <div class="btn-link-hero-section">
+          <button class="btn">Get in touch</button>
+          <a href="">See our work</a>
+        </div>
       </div>
       <div class="hero-section-img">
-        <img class="hero-img" src="images\hero-section\hero-image.png" alt="hero image">
+        <!--<img class="hero-img" src="images\hero-section\hero-image.png" alt="hero image">-->
         <img class="hero-card hero-card-top" src="images\hero-section\card-1.png" alt="card 1">
         <img class="hero-card hero-card-bottom" src="images\hero-section\card-2.png" alt="card 2">
       </div>
@@ -51,7 +53,7 @@
     <!-- SECTION 3: RECENT PROJECTS-->
     <section id="recent-projects">
       <div>
-        <h3>Recent Projects</h2>
+        <h3>Recent Projects</h3>
       </div>
       <div class="recent-projects-container">
         <article class="project-card">
@@ -67,7 +69,7 @@
           <div>
             <h4>Dashcoin</h4>
             <p>Web Development</p>
-            <a href="">Learn more</a>
+            <a id="middle-web-development-card-link" href="">Learn more</a>
           </div>
         </article>
         <article class="project-card">
@@ -109,7 +111,7 @@
     <!-- SECTION 5: SERVICES SECTION-->
     <section id="services-section">
       <div class="services-title">
-        <h2>Our Services</h2>
+        <h3>Our Services</h3>
       </div>
       <div class="services-container">
         <article class="services-card">
@@ -119,7 +121,7 @@
             </div>
           </div>
           <h4>User Interface Design</h4>
-          <p>Circle provides you with a<br>stunning user interface design<br>that is accessible to everyone.</p>
+          <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
           <a href="">Learn more</a>
         </article>
         <article class="services-card">
@@ -129,7 +131,7 @@
             </div>
           </div>
           <h4>User Experience Design</h4>
-          <p>Circle always focuses on<br>delivering the best user<br>experience to your costumers.</p>
+          <p id="services-middle-p">Circle always focuses on delivering the best user experience to your costumers.</p>
           <a href="">Learn more</a>
         </article>
         <article class="services-card">
@@ -139,7 +141,7 @@
             </div>
           </div>
           <h4>Application Development</h4>
-          <p>We develop high-quality mobile<br>and web applications using the<br>latest technology stack.</p>
+          <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
           <a href="">Learn more</a>
         </article>
       </div>
@@ -150,7 +152,7 @@
       <div class="cta-container">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
-        <div>
+        <div class="cta-form-container">
           <form action="get">
             <input type="email" placeholder="Enter your email">
             <label for="email"></label>
@@ -169,11 +171,11 @@
       <div class="footer-links">
         <ul class="footer-links-list">
           <li><a href="">Team</a></li>
-          <li><a href="">Services</a></li>
+          <li><a id="footer-services-link" href="">Services</a></li>
           <li><a href="">About Us</a></li>
-          <li><a href="">Press</a></li>
+          <li><a id="footer-press-link" href="">Press</a></li>
           <li><a href="">Projects</a></li>
-          <li><a href="">Privacy Policy</a></li>
+          <li><a id="footer-privacy-link" href="">Privacy Policy</a></li>
         </ul>
       </div>
     </section>
