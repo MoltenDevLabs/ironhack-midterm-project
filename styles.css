@@ -10,6 +10,8 @@ body {
     background-color: #f2f4fc;
 }
 
+/* Media query for screens bigger than 769px - LAPTOP */
+@media screen and (max-width:2400px) {
 h1 {
     font-size: 60px;
     font-weight: bold;
@@ -29,7 +31,7 @@ h4 {
     font-weight: bold;
 }
 
-/* NAVIGATION BAR*/
+/* NAVIGATION BAR - LAPTOP */
 #navbar {
     width: 100%;
     display: flex;
@@ -70,12 +72,13 @@ h4 {
     padding: 14px 30px;
     font-weight: 500;
     text-align: center;
+    font-size: 16px;
 }
 .navbar-btn {
     margin-right: 120px;
 }
 
-/* SECTION 1: HERO SECTION */
+/* SECTION 1: HERO SECTION - LAPTOP */
 #hero-section {
     margin: 120px;
     display: flex;
@@ -91,7 +94,7 @@ h4 {
     color: #6B708D;
     font-size: 24px;
     line-height: 30px;
-    margin: 40px 0;
+    margin: 40px 10px 40px 0;
 }
 .hero-section-text a {
     color: #6B708D;
@@ -121,7 +124,7 @@ h4 {
     left: 272px;
 }
 
-/* SECTION 2: PARTNERS */
+/* SECTION 2: PARTNERS - LAPTOP */
 .partners-logos {
     margin: 250px 50px;
     display: flex;
@@ -130,7 +133,7 @@ h4 {
     filter: grayscale(1);
 }
 
-/* SECTION 3: RECENT PROJECTS */
+/* SECTION 3: RECENT PROJECTS - LAPTOP */
 #recent-projects {
     margin: 120px;
 }
@@ -169,7 +172,7 @@ h4 {
     color: #072AC8
 }
 
-/* SECTION 4: TESTIMONIAL SECTION */
+/* SECTION 4: TESTIMONIAL SECTION - LAPTOP */
 #testimonial-section {
     margin: 150px 20px;
 }
@@ -245,7 +248,7 @@ h4 {
     justify-content: center;
 } 
 
-/* SECTION 5: SERVICES SECTION */
+/* SECTION 5: SERVICES SECTION - LAPTOP */
 #services-section {
     margin: 120px;
 }
@@ -292,7 +295,7 @@ h4 {
     color: #072AC8
 }
 
-/* SECTION 6: CTA SECTION */
+/* SECTION 6: CTA SECTION - LAPTOP */
 .cta-container {
     background-color: #FFC600;
     display: flex;
@@ -345,7 +348,7 @@ h4 {
     line-height: 130%;
 }
 
-/* SECTION 7: FOOTER */
+/* SECTION 7: FOOTER - LAPTOP */
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -386,7 +389,7 @@ h4 {
     padding: 15px 0;
 }
 
-/* SECTION 8: PROJECT */
+/* SECTION 8: PROJECT - LAPTOP */
 .project-container {
     margin: 120px;
 }
@@ -434,7 +437,7 @@ h4 {
     margin: 40px 0 70px 0;
 }
 
-/* SECTION 10: CONTACT US */
+/* SECTION 10: CONTACT US - LAPTOP */
 .contact-us-container {
     margin: 140px 120px;
 }
@@ -480,9 +483,9 @@ h4 {
     margin-top: 40px;
     height: 80px;
 }
+}
 
 /* Media query for screens smaller than 481px - MOBILE*/
-/* NAVIGATION BAR*/
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 40px;
@@ -502,8 +505,11 @@ h4 {
         font-size: 12px;
         font-weight: bold;
     }
-    #navbar {
+
+/* NAVIGATION BAR - MOBILE */
+#navbar {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
@@ -512,21 +518,28 @@ h4 {
 .navbar-logo { grid-area: 1 / 1 / 2 / 2; }
 .navbar-links { grid-area: 2 / 1 / 3 / 3; }
 .navbar-class { grid-area: 1 / 2 / 2 / 3; }
+
 .navbar-logo {
-    margin-left: 70px;
+    margin: 0;
 }
 .navbar-links {
     width: 100%;
 }
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .navbar-btn {
-    margin-right: 70px;
+    margin-right: 0;
     background-color: #072AC8;
     color: white;
     border: none;
     white-space: nowrap;
     padding: 15px;
+    width: 50%;
 }
-/* SECTION 1: HERO SECTION */
+/* SECTION 1: HERO SECTION - MOBILE */
 #hero-section {
     margin: auto;
     display: flex;
@@ -556,13 +569,15 @@ h4 {
     left: calc(50% - 150px)
 }
 .hero-section-text h1 {
-    margin-top: 40px;
+    margin: 40px 20px 0 20px;
+    text-align: center;
 }
 .hero-section-text p {
     color: #6B708D;
     font-size: 14px;
     line-height: 20px;
-    margin: 20px 0 30px 0;
+    margin: 20px 20px 30px 20px;
+    text-align: center;
 }
 .hero-section-text a {
     color: #6B708D;
@@ -589,7 +604,7 @@ h4 {
     left: calc(69% - 150px);
 }
 
-/* SECTION 2: PARTNERS */
+/* SECTION 2: PARTNERS - MOBILE */
 .partners-logos {
     margin: 100px 50px 130px 50px;
     display: flex;
@@ -601,7 +616,7 @@ h4 {
     width: 17%;
 }
 
-/* SECTION 3: RECENT PROJECTS */
+/* SECTION 3: RECENT PROJECTS - MOBILE */
 #recent-projects {
     margin: 50px;
 }
@@ -645,7 +660,7 @@ h4 {
     padding: 23px 10px 10px 10px;
 }
 
-/* SECTION 4: TESTIMONIAL SECTION */
+/* SECTION 4: TESTIMONIAL SECTION - MOBILE */
 #testimonial-section {
     margin: 50px 0px;
 }
@@ -719,7 +734,7 @@ h4 {
     justify-content: center;
 } 
 
-/* SECTION 5: SERVICES SECTION */
+/* SECTION 5: SERVICES SECTION - MOBILE */
 #services-section {
     margin: 50px;
 }
@@ -767,7 +782,7 @@ h4 {
     color: #072AC8
 }
 
-/* SECTION 6: CTA SECTION */
+/* SECTION 6: CTA SECTION - MOBILE */
 .cta-container {
     background-color: #FFC600;
     display: flex;
@@ -824,7 +839,7 @@ h4 {
     text-align: center;
 }
 
-/* SECTION 7: FOOTER */
+/* SECTION 7: FOOTER - MOBILE */
 .footer-container {
     display: flex;
     flex-direction: row;
@@ -871,7 +886,7 @@ h4 {
     font-size: 14px;
 }
 
-/* SECTION 8: PROJECT */
+/* SECTION 8: PROJECT - MOBILE */
 .project-container {
     margin: 0px;
 }
@@ -923,7 +938,7 @@ h4 {
     margin: 30px 0 50px 0;
 }
 
-/* SECTION 10: CONTACT US */
+/* SECTION 10: CONTACT US - MOBILE */
 .contact-us-container {
     margin: 40px 50px;
 }
@@ -967,13 +982,13 @@ h4 {
 }
 .btn-contact {
     margin-top: 35px;
-    height: 75px;
+    height: 70px;
+    font-size: 16px
 }
 }
 
-/* Media query for screens between 481px and 768px - TABLET*/
-/* NAVIGATION BAR*/
-@media screen and (max-width: 768px) {
+/* Media query for screens between 481px and 768px - TABLET */
+@media (max-width:768px) and (min-width:481px) {
     h1 {
         font-size: 40px;
         font-weight: bold;
@@ -981,19 +996,22 @@ h4 {
         line-height: 50px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 32px;
         font-weight: bold;
     }
     h3 {
-        font-size: 25px;
+        font-size: 28px;
         font-weight: bold;
     }
     h4 {
         font-size: 12px;
         font-weight: bold;
     }
-    #navbar {
+
+/* NAVIGATION BAR - TABLET */
+#navbar {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
@@ -1002,21 +1020,28 @@ h4 {
 .navbar-logo { grid-area: 1 / 1 / 2 / 2; }
 .navbar-links { grid-area: 2 / 1 / 3 / 3; }
 .navbar-class { grid-area: 1 / 2 / 2 / 3; }
+
 .navbar-logo {
-    margin-left: 70px;
+    margin: 0;
 }
 .navbar-links {
     width: 100%;
 }
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .navbar-btn {
-    margin-right: 70px;
+    margin: 0;
     background-color: #072AC8;
     color: white;
     border: none;
     white-space: nowrap;
     padding: 15px;
+    width: 50%;
 }
-/* SECTION 1: HERO SECTION */
+/* SECTION 1: HERO SECTION - TABLET */
 #hero-section {
     margin: auto;
     display: flex;
@@ -1046,13 +1071,15 @@ h4 {
     left: calc(50% - 150px)
 }
 .hero-section-text h1 {
-    margin-top: 40px;
+    margin: 40px 40px 0 40px;
+    text-align: center;
 }
 .hero-section-text p {
     color: #6B708D;
     font-size: 14px;
     line-height: 20px;
-    margin: 20px 0 30px 0;
+    margin: 20px 40px 30px 40px;
+    text-align: center;
 }
 .hero-section-text a {
     color: #6B708D;
@@ -1061,42 +1088,30 @@ h4 {
     margin-left: 30px;
 }
 .hero-img {
-    max-width: 300px;
+    max-width: 60%;
     position: absolute;
     z-index: 1;
 }
 .hero-card {
-    max-width: 150px;
-    position: absolute;
+    max-width: 30%;
+    position: relative;
     z-index: 2;
 }
 .hero-card-top {
-    top: calc(10% - 30px);
-    left: calc(25% - 150px);
+    top: calc(10% - 44px);
+    left: calc(25% - 210px);
 }
 .hero-card-bottom {
-    top: calc(69% - 30px);
-    left: calc(69% - 150px);
+    top: calc(75% - 100px);
+    left: calc(28% - 150px);
 }
 
-/* SECTION 2: PARTNERS */
-.partners-logos {
-    margin: 100px 50px 130px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    filter: grayscale(1);
-}
-.partners-logos img {
-    width: 17%;
-}
-
-/* SECTION 3: RECENT PROJECTS */
+/* SECTION 3: RECENT PROJECTS - TABLET */
 #recent-projects {
     margin: 50px;
 }
 .recent-projects-container {
-    margin: 60px 0;
+    margin: 80px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1117,99 +1132,22 @@ h4 {
     height: 100px;
 }
 .recent-projects-container h4 {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 15px 0px 15px;
 }
 .recent-projects-container p {
     font-size: 10px;
-    padding: 8px 10px;
+    padding: 8px 15px;
     color:#6B708D
 }
 .recent-projects-container a {
     font-size: 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 23px 15px 15px 15px;
     position: absolute;
     text-decoration: none;
     color: #072AC8
 }
-#middle-web-development-card-link {
-    padding: 23px 10px 10px 10px;
-}
 
-/* SECTION 4: TESTIMONIAL SECTION */
-#testimonial-section {
-    margin: 50px 0px;
-}
-.testimonial-container {
-    background-color: #292E47;
-    background-image: url("./images/testimonial-section/orbit.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-}
-.testimonial-container-left img, .testimonial-container-right img{
-    width: 50px;
-    display: flex;
-    align-items: center;
-}
-.testimonial-pfp {
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    margin-right: 5px;
-}
-.testimonial-container h3 {
-    font-weight: 700;
-    line-height: 45px;
-}
-.testimonial-container-center p {
-    font-size: 17px;
-    line-height: 140%;
-}
-.testimonial-container-pfp p {
-    font-size: 14px;
-    line-height: 100%;
-    color: #A2D6F9;
-}
-.testimonial-container a {
-    font-size: 10px;
-    line-height: 15px;
-    color: white;
-    text-decoration: none;
-}
-.testimonial-container-left {
-    padding: 0 20px;
-    max-width: 25%;
-}
-.testimonial-img-left, .testimonial-img-right {
-    padding: 80px 0px;
-}
-.testimonial-container-right {
-    padding: 0 20px;
-    max-width: 25%;
-}
-.testimonial-container-center {
-    padding: 20px 10px;
-    max-width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.testimonial-container-pfp {
-    display: flex;
-    flex-direction: row;
-} 
-.testimonial-container-pfp-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} 
-
-/* SECTION 5: SERVICES SECTION */
+/* SECTION 5: SERVICES SECTION - TABLET */
 #services-section {
     margin: 50px;
 }
@@ -1232,92 +1170,36 @@ h4 {
 }
 .services-icon-bg {
     border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    width: 65px;
+    height: 65px;
     background-color: #ECF7FF;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 0 0 5px;
+    margin: 12px 0 0 12px;
 }
 .services-card h4 {
     line-height: 15px;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 15px 0px 15px;
 }
 .services-card p {
-    padding: 8px 10px;
+    padding: 8px 15px;
     color:#6B708D;
     font-size: 10px;
     line-height: 150%;
 }
 .services-card a {
-    font-size: 10px;;
-    padding: 10px;
+    font-size: 10px;
+    padding: 15px;
     text-decoration: none;
     color: #072AC8
 }
 
-/* SECTION 6: CTA SECTION */
-.cta-container {
-    background-color: #FFC600;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 420px;
-    margin: 0px 0px;
-}
-.cta-container h3 {
-    text-align: center;
-    color: #292E47;
-    font-weight: 700;
-    line-height: 47px;
-}
-.cta-container p {
-    color: #292E47;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 140%;
-    margin: 30px 0;
-}
-.cta-form-container {
-    width: 80%;
-}
-.cta-container form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-.cta-container input {
-    width: 60%;
-    height: 50px;
-    border: 0px;
-    background-image: url("./images/newsletter/icon/mail.svg");
-    background-repeat: no-repeat;
-    background-position: 20px;
-    margin-right: 10px;
-    padding-left: 65px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    color: #292E47;
-}
-.btn-cta {
-    height: 50px;
-    width: 40%;
-    margin-left: 10px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 130%;
-    padding: 0;
-    text-align: center;
-}
-
-/* SECTION 7: FOOTER */
+/* SECTION 7: FOOTER - TABLET */
 .footer-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     margin: 100px 50px;
 }
@@ -1342,7 +1224,7 @@ h4 {
     color: #6B708D;
     text-decoration: none;
     display: block;
-    padding: 0px 0px 35px 16px;
+    padding: 15px 16px 15px 16px;
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
@@ -1361,7 +1243,7 @@ h4 {
     font-size: 14px;
 }
 
-/* SECTION 8: PROJECT */
+/* SECTION 8: PROJECT - TABLET */
 .project-container {
     margin: 0px;
 }
@@ -1378,14 +1260,14 @@ h4 {
     align-items: center;
     color: #6B708D;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     margin-left: 50px;
 }
 .project-subtitle-completed {
     color: #292E47;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 150%;
     margin-right: 50px;
 }
@@ -1411,52 +1293,5 @@ h4 {
 }
 .project-explanation-second-p {
     margin: 30px 0 50px 0;
-}
-
-/* SECTION 10: CONTACT US */
-.contact-us-container {
-    margin: 40px 50px;
-}
-.form-contact-us {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(9, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 600px;
-}
-.fname { grid-area: 1 / 1 / 2 / 2; }
-.fname-input { grid-area: 2 / 1 / 3 / 2; }
-.email { grid-area: 3 / 1 / 4 / 2; }
-.email-input { grid-area: 4 / 1 / 5 / 2; }
-.phone { grid-area: 5 / 1 / 6 / 2; }
-.phone-input { grid-area: 6 / 1 / 7 / 2; }
-.message { grid-area: 7 / 1 / 8 / 2; }
-.message-input { grid-area: 8 / 1 / 9 / 2; }
-.btn-contact { grid-area: 9 / 1 / 10 / 2; }
-
-.form-contact-us label {
-    margin: 30px 0 -5px 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 150%;
-    height: 30px;
-    color: #6B708D;
-}
-.form-contact-us input {
-    background: rgba(107, 112, 141, 0.1);
-    border: none;
-    height: 50px;
-    padding-left: 12px;
-}
-.form-contact-us textarea {
-    background: rgba(107, 112, 141, 0.1);
-    border: none;
-    height: 150px;
-    padding: 12px 0 0 12px;
-}
-.btn-contact {
-    margin-top: 35px;
-    height: 75px;
 }
 }
