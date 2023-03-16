@@ -14,11 +14,11 @@
       <div class="navbar-links">
         <ul class="navbar-container">
           <li><a id="home-link" href="../index.html">Home</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="../contact_us_page/contact_us_page.html">Services</a></li>
+          <li><a href="../index.html#recent-projects">Projects</a></li>
+          <li><a href="../index.html#services-section">Services</a></li>
         </ul>
       </div>
-      <button class="btn navbar-btn">Contact us</button>
+      <button onclick="window.location.href='/contact_us_page/contact_us_page.html';" class="btn navbar-btn">Contact us</button>
     </nav>
 
     <!-- SECTION 8: PROJECT-->
@@ -26,17 +26,16 @@
       <div class="project-container">
         <h1 class="project-title">Simplify</h1>
         <div class="project-subtitle-container">
-          <p>UI Design and App Development</p>
+          <p class="project-subtitle">UI Design and App Development</p>
           <p class="project-subtitle-completed">Completed on <span>June 22, 2021</span></p>
         </div>
         <div class="project-img-big-container">
           <img class="project-img-big" src="../images/projects-section/1.jpg" alt="project 1 big">
         </div>
         <div class="project-explanation">
-          <p>
+          <p class="project-explanation-first-p">
             Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nis cillum minim tempor enim.
-          </p>
-          <p class="project-explanation-second-p">  
+          <br>
             Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad e dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nis cillum minim tempor enim.
           </p>
         </div>
@@ -46,7 +45,7 @@
     <!-- SECTION 9: OTHER PROJECTS-->
     <section id="recent-projects">
       <div class="recent-projects-title">
-        <h3>Other Projects</h2>
+        <h3>Other Projects</h3>
       </div>
       <div class="recent-projects-container">
         <article class="project-card">
@@ -92,7 +91,7 @@
     </section>
   
     <!-- SECTION 7: FOOTER 2-->
-    <section class="footer-container">
+    <footer class="footer-container">
       <div class="footer-left">
         <img src="../images/logos/circle.svg" alt="circle logo">
         <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
@@ -100,14 +99,15 @@
       <div class="footer-links">
         <ul class="footer-links-list">
           <li><a href="">Team</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="#services-section">Services</a></li>
           <li><a href="">About Us</a></li>
           <li><a href="">Press</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
           <li><a href="">Privacy Policy</a></li>
         </ul>
       </div>
-    </section>
+    </footer>
+    <script src="./projects.js"></script>
 
   </body>
 </html>

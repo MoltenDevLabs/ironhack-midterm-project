@@ -14,11 +14,11 @@
       <div class="navbar-links">
         <ul class="navbar-container">
           <li><a id="home-link" href="#">Home</a></li>
-          <li><a href="/project_page/project_page.html">Projects</a></li>
-          <li><a href="/contact_us_page/contact_us_page.html">Services</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
+          <li><a href="#services-section">Services</a></li>
         </ul>
       </div>
-      <button class="btn navbar-btn">Contact us</button>
+      <button onclick="window.location.href='/contact_us_page/contact_us_page.html';" class="btn navbar-btn">Contact us</button>
     </nav>
 
     <!-- SECTION 1: HERO SECTION-->
@@ -61,7 +61,7 @@
           <div>
             <h4>Simplify</h4>
             <p>UI Design & App Development</p>
-            <a href="">Learn more</a>
+            <a href="/project_page/project_page.html?title=Simplify">Learn more</a>
           </div>
         </article>
         <article class="project-card">
@@ -69,7 +69,7 @@
           <div>
             <h4>Dashcoin</h4>
             <p>Web Development</p>
-            <a id="middle-web-development-card-link" href="">Learn more</a>
+            <a id="middle-web-development-card-link" href="/project_page/project_page.html?title=Dashcoin">Learn more</a>
           </div>
         </article>
         <article class="project-card">
@@ -77,7 +77,7 @@
           <div>
             <h4>Vectorify</h4>
             <p>User Experience Design</p>
-            <a href="">Learn more</a>
+            <a href="/project_page/project_page.html?title=Vectorify">Learn more</a>
           </div>
         </article>
       </div>
@@ -163,7 +163,7 @@
     </section>
 
     <!-- SECTION 7: FOOTER-->
-    <section class="footer-container">
+    <footer class="footer-container">
       <div class="footer-left">
         <img src="images\logos\circle.svg" alt="circle logo">
         <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
@@ -171,13 +171,14 @@
       <div class="footer-links">
         <ul class="footer-links-list">
           <li><a href="">Team</a></li>
-          <li><a id="footer-services-link" href="">Services</a></li>
+          <li><a id="footer-services-link" href="#services-section">Services</a></li>
           <li><a href="">About Us</a></li>
           <li><a id="footer-press-link" href="">Press</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
           <li><a id="footer-privacy-link" href="">Privacy Policy</a></li>
         </ul>
       </div>
-    </section>
+    </footer>
+
   </body>
 </html>
