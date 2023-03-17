@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Midterm project - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <img class="navbar-logo" src="images\logos\circle.svg" alt="circle logo">
+      <div class="navbar-links">
+        <ul class="navbar-container">
+          <li><a id="home-link" href="#">Home</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
+          <li><a href="#services-section">Services</a></li>
+        </ul>
+      </div>
+      <button onclick="window.location.href='/contact_us_page/contact_us_page.html';" class="btn navbar-btn">Contact us</button>
+    </nav>
+
+    <!-- SECTION 1: HERO SECTION-->
+    <section id="hero-section">
+      <div class="hero-section-text">
+        <h1>Empower Your Business With Stunning Design!</h1>
+        <p>Circle is a digital design and development studio.
+            We design and develop astonishing websites and mobile apps.</p>
+        <div class="btn-link-hero-section">
+          <button class="btn">Get in touch</button>
+          <a href="">See our work</a>
+        </div>
+      </div>
+      <div class="hero-section-img">
+        <img class="hero-img" src="images\hero-section\hero-image.png" alt="hero image">
+        <img class="hero-card hero-card-top" src="images\hero-section\card-1.png" alt="card 1">
+        <img class="hero-card hero-card-bottom" src="images\hero-section\card-2.png" alt="card 2">
+      </div>
+    </section>
+
+    <!-- SECTION 2: PARTNERS-->
+    <section>
+      <div class="partners-logos">
+        <img src="images\logos\airbnb-logo.svg" alt="airbnb logo">
+        <img src="images\logos\google-logo.svg" alt="google logo">
+        <img src="images\logos\microsoft-logo.svg" alt="microsoft logo">
+        <img src="images\logos\fedex-logo.svg" alt="fedex logo">
+        <img src="images\logos\amazon-logo.svg" alt="amazon logo">
+      </div>
+    </section>
+
+    <!-- SECTION 3: RECENT PROJECTS-->
+    <section id="recent-projects">
+      <div>
+        <h3>Recent Projects</h3>
+      </div>
+      <div class="recent-projects-container">
+        <article class="project-card">
+          <img src="images\projects-section\1.jpg" alt="project 1">
+          <div>
+            <h4>Simplify</h4>
+            <p>UI Design & App Development</p>
+            <a href="/project_page/project_page.html?title=Simplify">Learn more</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images\projects-section\2.jpg" alt="project 2">
+          <div>
+            <h4>Dashcoin</h4>
+            <p>Web Development</p>
+            <a id="middle-web-development-card-link" href="/project_page/project_page.html?title=Dashcoin">Learn more</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="images\projects-section\3.jpg" alt="project 3">
+          <div>
+            <h4>Vectorify</h4>
+            <p>User Experience Design</p>
+            <a href="/project_page/project_page.html?title=Vectorify">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 4: TESTIMONIAL SECTION-->
+    <section id="testimonial-section">
+      <div class="testimonial-container">
+        <div class="testimonial-container-left">
+          <img class="testimonial-img-left" src="images\testimonial-section\memoji-1.png" alt="emoji 1">
+          <img class="testimonial-img-left" src="images\testimonial-section\memoji-3.png" alt="emoji 3">
+        </div>
+        <div class="testimonial-container-center">
+          <h3>Hear What Our Clients Have To Say</h3>
+          <p>"Circle helped us through every stage of our startup.<br>We really enoyed working with you."</p>
+          <div class="testimonial-container-pfp">
+            <img class="testimonial-pfp" src="images\testimonial-section\profile.png" alt="pfp">
+            <div class="testimonial-container-pfp-text">
+              <p>Kristin Watson</p>
+              <a href="">Booking.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-container-right">
+          <img class="testimonial-img-right" src="images\testimonial-section\memoji-2.png" alt="emoji 2">
+          <img class="testimonial-img-right" src="images\testimonial-section\memoji-4.png" alt="emoji 4">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: SERVICES SECTION-->
+    <section id="services-section">
+      <div class="services-title">
+        <h3>Our Services</h3>
+      </div>
+      <div class="services-container">
+        <article class="services-card">
+          <div>
+            <div class="services-icon-bg">
+              <img src="images\services-section\icons\1.svg" alt="icon 1">
+            </div>
+          </div>
+          <h4>User Interface Design</h4>
+          <p>Circle provides you with a stunning user interface design that is accessible to everyone.</p>
+          <a href="">Learn more</a>
+        </article>
+        <article class="services-card">
+          <div>
+            <div class="services-icon-bg">
+              <img src="images\services-section\icons\2.svg" alt="icon 2">
+            </div>
+          </div>
+          <h4>User Experience Design</h4>
+          <p id="services-middle-p">Circle always focuses on delivering the best user experience to your costumers.</p>
+          <a href="">Learn more</a>
+        </article>
+        <article class="services-card">
+          <div>
+            <div class="services-icon-bg">
+              <img src="images\services-section\icons\3.svg" alt="icon 3">
+            </div>
+          </div>
+          <h4>Application Development</h4>
+          <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
+          <a href="">Learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CTA SECTION-->
+    <section>
+      <div class="cta-container">
+        <h3>Do you have any questions?</h3>
+        <p>Let us help you!</p>
+        <div class="cta-form-container">
+          <form action="get" method="get">
+            <input type="email" placeholder="Enter your email">
+            <label for="email"></label>
+            <button class="btn btn-cta">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FOOTER-->
+    <footer class="footer-container">
+      <div class="footer-left">
+        <img src="images\logos\circle.svg" alt="circle logo">
+        <p>2972 Westheimer Rd. Santa Ana,<br>Illinois 85486</p>
+      </div>
+      <div class="footer-links">
+        <ul class="footer-links-list">
+          <li><a href="">Team</a></li>
+          <li><a id="footer-services-link" href="#services-section">Services</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a id="footer-press-link" href="">Press</a></li>
+          <li><a href="#recent-projects">Projects</a></li>
+          <li><a id="footer-privacy-link" href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
